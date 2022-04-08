@@ -1,0 +1,107 @@
+/*esta es toda mi paguina*/
+body
+{background-color: black;
+background-image: url("fotos/bg_02.jpg");
+background-position: center;
+background-repeat: repeat;
+}
+/*este es mi contenedor principal*/
+div 
+{width: 820px;
+height: 2000px;
+background-color: black;
+margin-left: auto;
+margin-right: auto;
+}
+/*este es mi encabezado*/
+header
+{width: 800px;
+height: 125px;
+background-color: black;
+}
+/*estos son los linck del navegador nav*/
+header nav a
+{color: white;
+text-transform: uppercase;
+text-decoration: none;
+border-bottom:yellow 3px solid;
+margin-left: 5px;
+padding-right: 10px;
+padding-bottom: 3px;
+transition: 1s;
+float: right;
+margin-top: 40px;
+}
+/*esto define el nav del header*/
+header nav {background-color: black;
+width: 750px;}
+
+/*estos son los lick que al poner el maus cambia de color*/
+header nav a:hover
+{color:blue;
+border-bottom:red 50px solid
+}
+/*esto es el nav ubicado despues del la imagen*/
+nav 
+{width: 820px;
+height: 32px;
+background-color: #2c2c2c;}
+
+/*imagen del logo*/
+header img 
+{float: left;
+margin-right: 30px;
+}
+
+/*MODIFICACION DE LINK NAV*/
+.a {color:green}
+
+/*modificacion del asside*/
+aside 
+{float: right;
+width: 350px;
+height: 2000px;}
+
+/*modificacion del sectionz*/
+section {float: left;
+width: 400px;}
+
+/*MODIFICA EL TITULO DEL ARTICLE*/
+h2 
+{color: yellow;}
+
+/*modificacion del h1*/
+h1 
+{color: yellowgreen;
+border-bottom: grey 2px ;
+}
+
+/*modificacion de las imagenes de los articulos*/
+article img 
+{float: left;
+border: grey 5px solid;}
+
+/*modificacion de los parrafos*/
+p
+{color: white;
+text-align: justify;
+text-indent: 10px;
+line-height: 25px;
+}
+/*modificacion de los h5*/
+h5 
+{color: grey;}
+
+/*estos son los article*/
+article  
+{border-bottom: orange 3px solid;
+height: auto;}
+
+/*modifica h4*/
+h4 {
+    color: white;
+}
+.a2 {
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
